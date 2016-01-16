@@ -1,0 +1,28 @@
+{
+  "name": "epilogue-sample",
+  "version": "1.0.0",
+  "description": "Sample REST API server using Express, Postgres, Sequelize and Epilogue",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "epilogue",
+    "sequelize",
+    "postgres",
+    "postgresql",
+    "node",
+    "express"
+  ],
+  "author": "Raj Ramteerath",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "epilogue": "^0.6.5",
+    "express": "^4.13.3",
+    "pg": "^4.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.17.1"
+  }
+}
