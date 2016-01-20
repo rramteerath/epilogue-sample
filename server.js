@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 var port = process.env.PORT || 9001;
 var router = express.Router();
 
-// Add User model
+// Add Employee model
 var database = new Sequelize('sampledb', 'postgres', 'password', { dialect: 'postgres' });
 var Employee = database.define('Employee', {
   name: Sequelize.STRING,
